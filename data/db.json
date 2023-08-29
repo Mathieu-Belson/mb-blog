@@ -1,0 +1,24 @@
+{
+    "blogs": [
+        {
+            " title": "Bonjour du Japon",
+            "body": "yoyoyoyo...",
+            "author": "Mathieu",
+            "id": 1 
+        },
+
+        {
+            "title": "Bonjour de Kawasaki", 
+            "body": "yoyoyoyo...", 
+            "author": "Peter", 
+            "id": 2 
+        },
+
+        { 
+            "title": "Bonjour de la maison",
+            "body": "yoyoyoyo...", 
+            "author": "Philips", 
+            "id": 3 
+        }
+    ]
+}

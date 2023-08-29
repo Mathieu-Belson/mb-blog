@@ -1,9 +1,5 @@
-const BlogList = (props) => { // props object is passed to the component
-    //or const BlogList = ({blogs, title}) => {    // destructuring props object
-    const blogs = props.blogs;
-    const title = props.title;
-    console.log(props, blogs);
-
+const BlogList = ({blogs, title, handleDelete}) => { // props is an object that contains all the props passed to the component
+   
     return (
         <div className="blog-list">
             <h2>{ title }</h2> 
@@ -11,6 +7,7 @@ const BlogList = (props) => { // props object is passed to the component
                 <div className="blog-preview" key={ blog.id }> {/* each item in the array needs a unique key for react to keep track of it*/ }
                     <h2>{ blog.title }</h2>
                     <p>Written by { blog.author }</p>
+                    <button onClick={()=> handleDelete(blog.id)}>Delete</button> {/* the function handleDelete is passed to the component as a prop */}
                 </div>
             ))}
         </div>
