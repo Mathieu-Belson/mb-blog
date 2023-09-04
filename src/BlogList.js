@@ -1,4 +1,4 @@
-const BlogList = ({blogs, title, handleDelete}) => { // props is an object that contains all the props passed to the component
+const BlogList = ({blogs, title}) => { // props is an object that contains all the props passed to the component
    
     return (
         <div className="blog-list">
@@ -7,7 +7,6 @@ const BlogList = ({blogs, title, handleDelete}) => { // props is an object that 
                 <div className="blog-preview" key={ blog.id }> {/* each item in the array needs a unique key for react to keep track of it*/ }
                     <h2>{ blog.title }</h2>
                     <p>Written by { blog.author }</p>
-                    <button onClick={()=> handleDelete(blog.id)}>Delete</button> {/* the function handleDelete is passed to the component as a prop */}
                 </div>
             ))}
         </div>
