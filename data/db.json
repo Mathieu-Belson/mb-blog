@@ -1,40 +1,52 @@
 {
-    "blogs": [
-        {
-            "title": "Bonjour du Japon",
-            "body": "Konnichiwa, chers lecteurs ! Je m'appelle Mathieu, et je suis un développeur web français qui vit au Japon. Depuis les ruelles animées de Tokyo, je plonge tête première dans le monde fascinant du développement web. Entre les kanjis et les balises HTML, chaque jour est une aventure. J'apprends à créer des sites web éblouissants tout en découvrant la riche tradition de la technologie japonaise. Mes mentors sont des samouraïs du code, et mes lignes de code ressemblent à des haïkus en évolution constante. L'union de la précision japonaise et de la créativité du développement web me laisse sans voix. Ce voyage m'a appris que le développement web transcende les frontières culturelles. Alors que je progresse dans mon apprentissage, je partage ma passion pour cette fusion de la technologie moderne et de l'ancienne sagesse japonaise. Suivez-moi dans cette aventure passionnante au pays du soleil levant, où la programmation devient une forme d'art zen. 🌸 Sayonara for now, et à bientôt pour de nouvelles découvertes !",
-            "author": "Mathieu",
-            "id": 1
-        },
-        {
-            "title": "Bonjour de Kawasaki",
-            "body": "Salut tout le monde ! Je suis Peter, et je vis dans la ville dynamique de Kawasaki. Ma passion pour le développement web m'a conduit à explorer de nouvelles frontières numériques. Dans ce blog, je partagerai mes expériences et découvertes passionnantes dans le monde du code. Restez à l'écoute pour des astuces, des tutoriels et bien plus encore !",
-            "author": "Peter",
-            "id": 2
-        },
-        {
-            "title": "Bonjour de la maison",
-            "body": "Salutations à tous ! Je suis Philips, un amoureux de la technologie qui aime passer du temps à la maison à expérimenter avec le développement web. Que vous soyez un débutant ou un vétéran du code, ce blog est l'endroit idéal pour trouver des ressources utiles, des idées de projets et des réflexions sur les dernières tendances en matière de développement web. Rejoignez-moi dans ce voyage numérique excitant !",
-            "author": "Philips",
-            "id": 3
-        },
-        {
-            "title": "Exploring Japanese Cuisine",
-            "body": "Hello food enthusiasts! Welcome to my blog, 'Exploring Japanese Cuisine.' I'm Sarah, and I'm on a culinary journey through the flavors of Japan. Join me as I discover the art of sushi, ramen, tempura, and other delightful dishes. From street food stalls to Michelin-starred restaurants, I'll be your guide to the world of Japanese gastronomy. Get ready to tantalize your taste buds and explore the rich culinary heritage of Japan!",
-            "author": "Sarah",
-            "id": 4
-        },
-        {
-            "title": "Tech Trends in Tokyo",
-            "body": "Hey there techies! This is Alex reporting from Tokyo, the tech capital of Japan. In 'Tech Trends in Tokyo,' I'll be sharing the latest developments in the Japanese tech scene. From robotics and AI to gaming and virtual reality, Tokyo is at the forefront of innovation. Join me as we delve into the cutting-edge technologies and startups that are shaping the future of the tech industry in Japan.",
-            "author": "Alex",
-            "id": 5
-        },
-        {
-            "title": "Zen and the Art of Web Development",
-            "body": "Greetings, fellow web enthusiasts! I'm Hiroshi, and I'm here to explore the zen-like aspects of web development. In 'Zen and the Art of Web Development,' we'll delve into the harmonious blend of code and creativity. Drawing inspiration from Japanese Zen philosophy, we'll uncover the beauty of simplicity in design and functionality. Join me on this mindful journey into the world of web development with a Japanese twist.",
-            "author": "Hiroshi",
-            "id": 6
-        }
-    ]
+  "blogs": [
+    {
+      "title": "Bonjour du Japon",
+      "body": "Konnichiwa, chers lecteurs ! Je m'appelle Mathieu, et je suis un développeur web français qui vit au Japon. Depuis les ruelles animées de Tokyo, je plonge tête première dans le monde fascinant du développement web. Entre les kanjis et les balises HTML, chaque jour est une aventure. J'apprends à créer des sites web éblouissants tout en découvrant la riche tradition de la technologie japonaise. Mes mentors sont des samouraïs du code, et mes lignes de code ressemblent à des haïkus en évolution constante. L'union de la précision japonaise et de la créativité du développement web me laisse sans voix. Ce voyage m'a appris que le développement web transcende les frontières culturelles. Alors que je progresse dans mon apprentissage, je partage ma passion pour cette fusion de la technologie moderne et de l'ancienne sagesse japonaise. Suivez-moi dans cette aventure passionnante au pays du soleil levant, où la programmation devient une forme d'art zen. 🌸 Sayonara for now, et à bientôt pour de nouvelles découvertes !",
+      "author": "Mathieu",
+      "id": 1
+    },
+    {
+      "title": "Bonjour de Kawasaki",
+      "body": "Salut tout le monde ! Je suis Peter, et je vis dans la ville dynamique de Kawasaki. Ma passion pour le développement web m'a conduit à explorer de nouvelles frontières numériques. Dans ce blog, je partagerai mes expériences et découvertes passionnantes dans le monde du code. Restez à l'écoute pour des astuces, des tutoriels et bien plus encore !",
+      "author": "Peter",
+      "id": 2
+    },
+    {
+      "title": "Bonjour de la maison",
+      "body": "Salutations à tous ! Je suis Philips, un amoureux de la technologie qui aime passer du temps à la maison à expérimenter avec le développement web. Que vous soyez un débutant ou un vétéran du code, ce blog est l'endroit idéal pour trouver des ressources utiles, des idées de projets et des réflexions sur les dernières tendances en matière de développement web. Rejoignez-moi dans ce voyage numérique excitant !",
+      "author": "Philips",
+      "id": 3
+    },
+    {
+      "title": "Exploring Japanese Cuisine",
+      "body": "Hello food enthusiasts! Welcome to my blog, 'Exploring Japanese Cuisine.' I'm Sarah, and I'm on a culinary journey through the flavors of Japan. Join me as I discover the art of sushi, ramen, tempura, and other delightful dishes. From street food stalls to Michelin-starred restaurants, I'll be your guide to the world of Japanese gastronomy. Get ready to tantalize your taste buds and explore the rich culinary heritage of Japan!",
+      "author": "Sarah",
+      "id": 4
+    },
+    {
+      "title": "Tech Trends in Tokyo",
+      "body": "Hey there techies! This is Alex reporting from Tokyo, the tech capital of Japan. In 'Tech Trends in Tokyo,' I'll be sharing the latest developments in the Japanese tech scene. From robotics and AI to gaming and virtual reality, Tokyo is at the forefront of innovation. Join me as we delve into the cutting-edge technologies and startups that are shaping the future of the tech industry in Japan.",
+      "author": "Alex",
+      "id": 5
+    },
+    {
+      "title": "Zen and the Art of Web Development",
+      "body": "Greetings, fellow web enthusiasts! I'm Hiroshi, and I'm here to explore the zen-like aspects of web development. In 'Zen and the Art of Web Development,' we'll delve into the harmonious blend of code and creativity. Drawing inspiration from Japanese Zen philosophy, we'll uncover the beauty of simplicity in design and functionality. Join me on this mindful journey into the world of web development with a Japanese twist.",
+      "author": "Hiroshi",
+      "id": 6
+    },
+    {
+      "title": "Nouvelles découvertes dans le monde du développement web",
+      "body": "Konnichiwa, amis développeurs ! Je suis Mathieu, un passionné de développement web vivant au Japon. Récemment, j'ai plongé plus profondément dans l'univers fascinant du développement web, découvrant de nouvelles technologies et approches qui m'ont ébloui. Dans ce blog, je partagerai mes expériences et mes découvertes les plus récentes. Une de mes dernières obsessions est le développement de Progressive Web Apps (PWAs). Ces applications web offrent des performances impressionnantes et une expérience utilisateur fluide. J'ai également exploré les dernières avancées en matière de CSS Grid et de flexbox, améliorant ainsi mes compétences en conception web responsive. J'ai été inspiré par la philosophie Kaizen du Japon, qui prône l'amélioration continue. C'est exactement ce que je ressens dans mon voyage de développement web. Chaque ligne de code que j'écris est une opportunité d'apprentissage et de perfectionnement. Rejoignez-moi dans cette aventure, où la programmation devient un art en constante évolution. Restez à l'écoute pour des tutoriels, des astuces et des réflexions sur les tendances actuelles du développement web. Ensemble, nous explorerons le futur numérique avec enthousiasme et détermination !",
+      "author": "Mathieu",
+      "id": 7
+    },
+    {
+      "title": "Test ",
+      "body": "Bonjour c'est un test.",
+      "author": "Mathieu",
+      "id": 8
+    }
+  ]
 }
