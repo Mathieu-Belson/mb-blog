@@ -3,7 +3,7 @@ import useFetch from "./useFetch";
  
  const BlogDetails  = () => {
     const { id } = useParams();
-    const {Data: blog, error, isPending} = useFetch('http://localhost:8000/blogs/' + id);
+    const {data: blog, error, isPending} = useFetch('http://localhost:8000/blogs/' + id);
     
     return (
         <div className="blog-details">
@@ -13,7 +13,7 @@ import useFetch from "./useFetch";
                 <article>
                     <h2>{blog.title}</h2>
                 <p>Written by { blog.author }</p>
-                <div>{ blog.body }</div>
+                <div>{ blog.body }</div> {/* body property is the content of the blog*/}
             </article>
             )}
         </div>
