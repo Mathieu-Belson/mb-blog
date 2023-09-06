@@ -1,4 +1,3 @@
-import { useState, useEffect } from 'react'; // this is a hook that allows us to use state in a functional component
 import BlogList from './BlogList';
 import useFetch from './useFetch';
 
