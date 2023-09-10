@@ -5,6 +5,7 @@ import Create from './Create';
 
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'; // BrowserRouter is a component that we wrap around our application. It is a component that we import from react-router-dom. It is a component that we wrap around our a
 import BlogDetails from './BlogDetails';
+import NotFound from './NotFound';
 
 function App() {
   return (
@@ -22,6 +23,9 @@ function App() {
               <Route path="/blogs/:id"> {/* the :id is a route parameter. It is a variable that we can use to match any value in the url.*/}
                 <BlogDetails />
               </Route> 
+              <Route path="*"> {/* the * is a wildcard. It will match any route that hasn't been matched so far.*/} 
+                <NotFound />
+              </Route>
             </Switch>
           </div>
       </div>
